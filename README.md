@@ -1,4 +1,4 @@
-# Random-image-generator
+# Python generate image select size
 
 This is Program to create Image of the desired weight
 

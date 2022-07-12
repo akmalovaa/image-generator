@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>image generator</title>
+</head>
+<body>
+    <h1>Generate image of the desired weight</h1>
+    <form method="POST">
+        <div><label>Image size (1-999 Mb): <input type="number" name="image_size" min="1" max="999"></label></div>
+        <div><label>Image format: <select name="image_type">
+            <option>jpg</option>
+            <option>png</option>
+            </select> </label> </div>
+        <input type="submit" value="Get image">
+    </form>
+    {% if context %}
+    <h4> Generated file format: {{ context.format }} size: {{ context.size }} Mb  </h4>
+    <a href={{ context.url }}> Download file </a>
+    {% endif %}
+</body>
+</html>

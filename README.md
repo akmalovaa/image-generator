@@ -11,6 +11,7 @@ $ docker-compose up -d
 
 ### Tags
 - Python
+- Poetry
 - Flask
 - Docker
 - Docker-compose

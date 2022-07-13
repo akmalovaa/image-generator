@@ -21,7 +21,7 @@ def index():
         image_type = str(request.form.get('image_type'))
         if image_size > 0 and image_size < 999:
             generate_image(int(image_size), str(image_type))
-            download_url = f"{url_for('index', _external=True)}/downloads/{image_size}.{image_type}"
+            download_url = f"{url_for('index', _external=True)}downloads/{image_size}.{image_type}"
             context = {'size' : image_size, 'format' : image_type, 'url' : download_url}
         else:
             context = 'Error'

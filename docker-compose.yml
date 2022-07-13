@@ -8,5 +8,5 @@ services:
       - 80:80
     command: "python app.py"
     volumes:
-      - ./images:/images
-      - ./generated:/generated
+      - ./images:/image-generator/images
+      - ./generated:/image-generator//generated

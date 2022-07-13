@@ -49,7 +49,7 @@ if __name__ == '__main__':
         image_size = int(input_size)
     except ValueError:
         print("Not interesting value, need number(int)")
-    if image_size < 1000:
+    if image_size > 0 and image_size < 1000:
         generate_image(image_size)
     else:
         print('Sorry, dont want to do this')

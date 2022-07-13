@@ -26,4 +26,6 @@ $ python image_generator.py
 - Bootstrap
 - Generate image
 
+#### Description
+more detailed [akmalov.com](https://akmalov.com/blog/image-generator-python-flask-docker/)
 

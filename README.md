@@ -9,5 +9,12 @@ usage docker compose
 $ docker-compose up -d
 ```
 
+### Tags
+- Python
+- Flask
+- Docker
+- Docker-compose
+- Bootstrap
+- Generate image
 
 

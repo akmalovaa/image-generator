@@ -15,7 +15,7 @@ def _get_image(extension) -> str:
         print(f'No found template images')
 
 
-def generate_image(size: int, image_type: str = 'jpg') -> None:
+def generate_image(size: int = 1, image_type: str = 'jpg') -> None:
     """ Generate binary file and create zip archive """
     if os.path.exists(f"generated/{size}.{image_type}"):
        return

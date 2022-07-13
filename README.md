@@ -8,7 +8,9 @@ usage docker compose
 ```sh
 $ docker-compose up -d --build
 ```
-### Web cli
+### Cli
+
+usage Python or Poetry shell
 ```sh
 $ python image_generator.py
 ```

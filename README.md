@@ -6,7 +6,7 @@ This is Program to create Image of the desired weight
 
 usage docker compose
 ```sh
-$ docker-compose up -d
+$ docker-compose up -d --build
 ```
 
 ### Tags

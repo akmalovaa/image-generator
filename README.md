@@ -1,6 +1,6 @@
 # Python generate image select size
 
-This is Program to create Image of the desired weight [example](https://image.akmalov.com/)
+This is Program to create Image of the desired weight [example site](https://image.akmalov.com/)
 
 Google Chrome treat generated files suspiciously
 
